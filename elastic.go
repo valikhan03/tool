@@ -23,3 +23,14 @@ const (
 	UPD_LOT_EVENT = "UPDATE_LOT"
 	DEL_LOT_EVENT = "DELETE_LOT"
 )
+
+var EventFuncs = map[string]string{
+	CRE_AUC_EVENT: "CreateAuction",
+	UPD_AUC_EVENT: "UpdateAuction",
+	DEL_AUC_EVENT: "DeleteAuction",
+	ADD_PAR_EVENT: "AddParticipant",
+	DEL_PAR_EVENT: "DeleteParticipant",
+	ADD_LOT_EVENT: "AddLot",
+	UPD_LOT_EVENT: "UpdateLot",
+	DEL_LOT_EVENT: "DeleteLot",
+}
