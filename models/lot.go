@@ -1,4 +1,4 @@
-package tool
+package tool_models
 
 
 type Lot struct {

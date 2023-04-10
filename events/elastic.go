@@ -1,4 +1,4 @@
-package tool
+package tool_events
 
 const (
 	AuctionsIDX = "auctions"
@@ -22,6 +22,8 @@ const (
 	ADD_LOT_EVENT = "ADD_LOT"
 	UPD_LOT_EVENT = "UPDATE_LOT"
 	DEL_LOT_EVENT = "DELETE_LOT"
+
+	CHARGE_EVENT = "CHARGE"
 )
 
 var EventFuncs = map[string]string{
@@ -33,4 +35,5 @@ var EventFuncs = map[string]string{
 	ADD_LOT_EVENT: "AddLot",
 	UPD_LOT_EVENT: "UpdateLot",
 	DEL_LOT_EVENT: "DeleteLot",
+	CHARGE_EVENT:  "Charge",
 }
