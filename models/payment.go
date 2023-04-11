@@ -1,6 +1,6 @@
 package tool_models
 
-type Charge struct {
+type PaymentInvoice struct {
 	ID          int    `json:"id" db:"id"`
 	UserID      int    `json:"user_id" db:"user_id"`
 	ProductType int    `json:"product_type" db:"product_type"`
