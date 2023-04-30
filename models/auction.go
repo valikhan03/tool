@@ -12,4 +12,5 @@ type Auction struct {
 	MaxParticipants int       `json:"max_participants"`
 	ParticipantsNum int       `json:"participants_num"`
 	Status          string    `json:"status"`
+	Type			int		  `json:"type"`
 }
