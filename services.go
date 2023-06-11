@@ -1,4 +1,5 @@
-package tool_events
+package tool
+
 
 const (
 	AUC_SRVC  = "AUCTIONS_SERVICE"

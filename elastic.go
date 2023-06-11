@@ -1,4 +1,4 @@
-package tool_events
+package tool
 
 const (
 	AuctionsIDX = "auctions"

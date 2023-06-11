@@ -1,4 +1,4 @@
-package tool_models
+package tool
 
 type PaymentInvoice struct {
 	ID          int    `json:"id" db:"id"`

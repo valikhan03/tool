@@ -1,4 +1,4 @@
-package tool_models
+package tool
 
 import (
 	"github.com/google/uuid"
