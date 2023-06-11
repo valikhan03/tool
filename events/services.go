@@ -8,3 +8,4 @@ const (
 	PAY_SRVC  = "PAYMENT_SERVICE"
 	SRC_SRVC  = "SEARCH_SERVICE"
 )
+
