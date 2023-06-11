@@ -24,6 +24,7 @@ const (
 	DEL_LOT_EVENT = "DELETE_LOT"
 
 	CHARGE_EVENT = "CHARGE"
+	CRE_INV_EVENT = "CREATE_INVOICE"
 )
 
 var EventFuncs = map[string]string{
@@ -36,4 +37,5 @@ var EventFuncs = map[string]string{
 	UPD_LOT_EVENT: "UpdateLot",
 	DEL_LOT_EVENT: "DeleteLot",
 	CHARGE_EVENT:  "Charge",
+	CRE_INV_EVENT: "CreateInvoice",
 }
